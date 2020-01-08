@@ -3,7 +3,7 @@ Time Passport API
 
 Time Passport API is a scheduling service that assist users to manage and plan their day to day schedule. The API can be used standalone as a schedule management service or an integration with third-party applications to complement our Time Passport application.
 
-Time Passport offers robust workflows allowing you to co-ordinate various type of meetings such as a job interviews and meetings in a One to One or One to Many format.
+[Time Passport](https://time.truffle.ai/) offers robust workflows allowing you to co-ordinate various type of meetings such as a job interviews and meetings in a One to One or One to Many format.
 
 The need for time management tool
 ----------------------------------
