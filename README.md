@@ -22,6 +22,8 @@ Getting Started
 
 Sign up to our [Time Passport App](http://time.truffle.ai/dashboard)
 
+See our full list of [API End Points](https://github.com/appsocially/schedulerly-docs/tree/master/endpoints)
+
 Create Calendar
 
 ``` js
