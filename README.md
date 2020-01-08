@@ -20,9 +20,8 @@ Features:
 Getting Started
 -----------------------------------
 
-Also see out Time Passport App at time.truffle.ai/dashboard
+Sign up to our [Time Passport App](http://time.truffle.ai/dashboard)
 
-Sample Code
 Create Calendar
 
 ``` js
