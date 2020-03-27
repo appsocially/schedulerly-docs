@@ -32,7 +32,7 @@ hello@appsocial.ly
 
 ### /users
 
-#### POST
+#### POST (Deprecated)
 ##### Summary:
 
 Create a user
@@ -60,7 +60,7 @@ Create a user
 | --- | --- | --- |
 | schedulerAuth | write:users | read:users |
 
-#### GET
+#### GET (Deprecated)
 ##### Summary:
 
 Get all users
@@ -77,7 +77,7 @@ Get all users
 
 ### /users/{userId}
 
-#### GET
+#### GET 
 ##### Summary:
 
 Get user with Id
@@ -100,7 +100,7 @@ Get user with Id
 | 400 | Invalid Id |  |
 | 404 | User not found |  |
 
-#### DELETE
+#### DELETE (Deprecated)
 ##### Summary:
 
 Delete user with Id
@@ -147,9 +147,9 @@ Get user slots with user Id
 | 200 | Fetch all slot for specified user | [ [UserSlotOut](#userslotout) ] |
 | 400 | Invalid Id |  |
 
-### /users/{userId}/slot
+### /users/{userId}/slot 
 
-#### POST
+#### POST (Deprecated)
 ##### Summary:
 
 Create slot and assign to user
@@ -243,7 +243,7 @@ Currently this will generate timeslots within the next seven days
 
 ### /users/{userId}/meetings
 
-#### GET
+#### GET (Deprecated)
 ##### Summary:
 
 Fetch a list of user meetings
@@ -266,7 +266,7 @@ Fetch a list of user meetings
 
 ### /users/{userId}/contacts
 
-#### GET
+#### GET (Deprecated)
 ##### Summary:
 
 Fetch a list of contacts relevant to user
