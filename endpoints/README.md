@@ -359,7 +359,7 @@ Get a list of calendars the user is assigned to
 
 ### /meetings
 
-#### POST
+#### POST (Deprecated)
 ##### Summary:
 
 Create a meeting
@@ -380,7 +380,7 @@ Create a meeting
 | ---- | ----------- | ------ |
 | 200 | Meeting | [Meeting](#meeting) |
 
-#### GET
+#### GET 
 ##### Summary:
 
 Get all meetings
@@ -397,7 +397,7 @@ Get all meetings
 
 ### /meetings/{meetingId}
 
-#### GET
+#### GET (Deprecated)
 ##### Summary:
 
 Get a meeting
@@ -420,7 +420,7 @@ Get a meeting
 | 400 | Invalid Id |  |
 | 404 | Meeting not found |  |
 
-#### PUT
+#### PUT (Deprecated)
 ##### Summary:
 
 Update a meeting
@@ -444,7 +444,7 @@ Update a meeting
 | 400 | Invalid Id |  |
 | 404 | Meeting not found |  |
 
-#### DELETE
+#### DELETE (Deprecated)
 ##### Summary:
 
 Delete a meeting
@@ -469,7 +469,7 @@ Delete a meeting
 
 ### /meetings/{meetingId}/slots
 
-#### GET
+#### GET (Deprecated)
 ##### Summary:
 
 Get all slots of a meeting
@@ -492,7 +492,7 @@ Get all slots of a meeting
 | 400 | Invalid Id |  |
 | 404 | Meeting not found |  |
 
-#### PUT
+#### PUT (Deprecated)
 ##### Summary:
 
 Add a slot to a meeting
@@ -518,7 +518,7 @@ Add a slot to a meeting
 
 ### /meetings/{meetingId}/slots/{slotId}
 
-#### GET
+#### GET (Deprecated)
 ##### Summary:
 
 Get a slot of a meeting
@@ -542,7 +542,7 @@ Get a slot of a meeting
 | 400 | Invalid Id |  |
 | 404 | Meeting or slot not found |  |
 
-#### PUT
+#### PUT (Deprecated)
 ##### Summary:
 
 Update a slot of a meeting
@@ -567,7 +567,7 @@ Update a slot of a meeting
 | 400 | Invalid Id |  |
 | 404 | Slot not found |  |
 
-#### DELETE
+#### DELETE (Deprecated)
 ##### Summary:
 
 Delete a slot of a meeting
@@ -593,7 +593,7 @@ Delete a slot of a meeting
 
 ### /meetings/{meetingId}/attendees
 
-#### GET
+#### GET (Deprecated)
 ##### Summary:
 
 Fetch list of attendees from meeting id
